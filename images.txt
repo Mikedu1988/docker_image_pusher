@@ -7,3 +7,5 @@ xhofe/alist:latest
 golang:alpine
 alpine:latest
 nginx:alpine
+--platform=linux/arm64 prom/prometheus:v3.1.0
+prom/prometheus:v3.0.1
