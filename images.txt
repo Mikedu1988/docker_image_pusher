@@ -3,3 +3,4 @@ prom/prometheus:v3.0.1
 --platform=linux/arm64 prom/alertmanager:v0.28.0
 prom/alertmanager:v0.27.0
 rocketchat/rocket.chat:sha-5eed8d9
+bitnami/mongodb
