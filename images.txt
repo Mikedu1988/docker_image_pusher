@@ -1,11 +1,2 @@
---platform=linux/arm64 prom/prometheus:v3.1.0
-prom/prometheus:v3.0.1
---platform=linux/arm64 prom/alertmanager:v0.28.0
-prom/alertmanager:v0.27.0
-rocketchat/rocket.chat:sha-5eed8d9
-bitnami/mongodb
-11notes/kms:1.0.3
-11notes/kms-gui:1.0.3
-wiznote/wizserver
 ghcr.io/open-webui/open-webui:v0.8.5
 --platform=linux/arm64 ghcr.io/open-webui/open-webui:v0.8.5
