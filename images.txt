@@ -2,9 +2,27 @@
 #--platform=linux/arm64 ghcr.io/open-webui/open-webui:v0.8.5
 #ghcr.io/open-webui/open-webui:main
 #--platform=linux/arm64 ghcr.io/open-webui/open-webui:main
-redis:latest
---platform=linux/arm64 redis:latest
-postgres:15
---platform=linux/arm64 postgres:15
-calciumion/new-api:latest
---platform=linux/arm64 calciumion/new-api:latest
+#redis:latest
+#--platform=linux/arm64 redis:latest
+#postgres:15#
+#--platform=linux/arm64 postgres:15
+#calciumion/new-api:latest
+#--platform=linux/arm64 calciumion/new-api:latest
+
+# 1. PostgreSQL 17.11
+postgres:17.11-bookworm
+
+# 2. Redis 7.4
+redis:7.4-alpine
+
+# 3. Node.js 22 (前端构建用)
+node:22-alpine
+
+# 4. Golang 1.23 (API 构建用)
+golang:1.23-alpine
+
+# 5. Alpine 3.21 (基础镜像)
+alpine:3.21
+
+# 6. Nginx 1.24
+nginx:1.24-alpine
