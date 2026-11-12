@@ -1,5 +1,6 @@
-# 1. PostgreSQL 17.11
-postgres:17.11-bookworm
-
-# 2. Redis 7.4
-redis:7.4-alpine
+                                         ok  at 10:01:32
+centos:7.9.2009@sha256:be65f488b7764ad3638f236b7b515b3678369a5124c47b8d32916d6487418ea4
+safarov/freeswitch:1.8.7@sha256:fcd485f93547c31a468cd54830d966a783f611311ebac45015ca3c8e1a919e03
+#docker pull safarov/freeswitch:1.10.12@sha256:b31c743f4c911a19687c61e3214968f2a24f93f9d3d667cc26284192e158ffc6
+#docker pull debian:12@sha256:268fb24c39bca92d326dd83ea3abebe4a3f7751c804ffef23bb6d857dd343ff8
+#docker pull eclipse-temurin:21-jdk@sha256:0a3f329821dcadf54b2a3033a15e2e9f007069a9db43d7f51897e6b80e726b07
